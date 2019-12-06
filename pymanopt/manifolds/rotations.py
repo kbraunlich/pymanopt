@@ -8,8 +8,8 @@ import numpy as np
 import numpy.linalg as la
 import numpy.random as rnd
 from scipy.linalg import expm, logm
+#from scipy.special import comb
 from scipy.special import comb
-
 from pymanopt.tools.multi import multiprod, multitransp, multisym, multiskew
 from pymanopt.manifolds.manifold import Manifold
 
